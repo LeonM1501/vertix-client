@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0",
-  "title": "Vertix 0.3.0 – Direkte Updates und freie Versionswahl",
-  "notes": "Updates ohne Setup-Assistent mit automatischem Neustart. Minecraft- und Modloader-Versionen bei der Profilerstellung und in den Instanzeinstellungen wählen. Globaler Modkatalog mit optionalen Versions- und Loaderfiltern, Instanzauswahl und Kompatibilitätsprüfung.",
-  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.3.0/Vertix-Client-Setup.exe",
-  "sha256": "f4f3eb7f13712dc4ceb9d28488ac17541d3032215939f40147982993680c3a57",
-  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.3.0/Vertix-Client-0.3.0-source.tar.gz",
-  "source_sha256": "d13e91108de80b63968d141d84e4610fc498541ebdb612225bc47428881d1a68"
+  "version": "0.4.0",
+  "title": "Vertix 0.4.0 – Fünf neue Designs und automatische Mod-Updates",
+  "notes": "Vertix Client 0.4.0\n\n- Fünf neue Oberflächen: Mono, Papier, Terminal, Galerie und Fokus. Unterschiedliche Navigation, Bibliotheks-, Spiel- und Inhaltsansichten mit zusammenhängender neutraler Farbpalette, ohne Glow oder Schatten.\n- Unter Einstellungen → Deine Oberfläche Design, Schriftgröße, Abstände und Ecken anpassen. Die Auswahl bleibt lokal gespeichert.\n- Automatische Mod-Updateprüfung beim Öffnen einer Instanz. „Alle aktualisieren“ erscheint nur, wenn neuere kompatible Modrinth-Modversionen vorhanden sind; einzelne Mods zeigen ihre neue Version an.\n- Updates berücksichtigen Minecraft-Version, Modloader und Veröffentlichungsdatum. Lokale Mods ohne Updatequelle werden nicht fälschlich als aktuell markiert. Fehlgeschlagene Prüfungen lassen sich wiederholen.\n- Enthält die Funktionen aus 0.3.0: Updates ohne Setup-Assistent mit automatischem Neustart, frei wählbare Minecraft- und Modloader-Versionen sowie globalen Modkatalog mit Instanzauswahl und Kompatibilitätsprüfung.\n\nInstallation: In Vertix das Update herunterladen und anschließend installieren. Vertix schließt sich, aktualisiert seine Programmdateien und startet neu. Eine direkt geöffnete Setup-Datei unterstützt weiterhin die normale Erstinstallation. Profile und Spieldaten werden nicht deinstalliert.\n",
+  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.4.0/Vertix-Client-Setup.exe",
+  "sha256": "fd954574c789cc0c014dab1bcb3ebec452d5f1b0e86d3ad5531b3a59ec7a785e",
+  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.4.0/Vertix-Client-0.4.0-source.tar.gz",
+  "source_sha256": "59e88c5e6fb75714a278fd1918f60b2ccb430c4e841daf8543b76391ac2f477a"
 }
