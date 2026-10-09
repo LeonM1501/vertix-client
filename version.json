@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "title": "Vertix 0.2.0 – Neue Instanzeinstellungen",
+  "notes": "Instanzeinstellungen im klassischen Vertix-Design:\n• Bereiche Allgemein und Installation\n• RAM-Slider in 0,5-GB-Schritten und Schnellwerte\n• Übersicht über Minecraft, Modloader und Instanzordner\n\nDie Updatequelle zeigt ab dieser Version auf LeonM1501/vertix-client. Hintergrundprüfungen setzen laufende Downloads nicht mehr zurück.",
+  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.2.0/Vertix-Client-Setup.exe",
+  "sha256": "a2bf7eb207ada913022bcec1239af4dbd7bd6c9a5548ace266cc93ff6bbc9555",
+  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.2.0/Vertix-Client-0.2.0-source.tar.gz",
+  "source_sha256": "33749ba598b62199f1d68df5a908207bb9d027b0f6802ad5b12d677cafc18df2"
+}
