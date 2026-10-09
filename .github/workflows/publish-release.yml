@@ -1,4 +1,4 @@
-name: Publish Vertix test release
+name: Publish Vertix release
 on:
   push:
     branches: [main]
@@ -18,15 +18,16 @@ jobs:
           set -euo pipefail
           base="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_SHA}"
           curl --fail --location --retry 5 "$base/version.json" -o version.json
-          test "$(jq -r .version version.json)" = "0.2.0"
-          curl --fail --location --retry 5 "$base/releases/0.2.0/Vertix-Client-Setup.exe" -o Vertix-Client-Setup.exe
-          curl --fail --location --retry 5 "$base/releases/0.2.0/Vertix-Client-0.2.0-source.tar.gz" -o Vertix-Client-0.2.0-source.tar.gz
-          curl --fail --location --retry 5 "$base/releases/0.2.0/Vertix-Updates-einrichten.cmd" -o Vertix-Updates-einrichten.cmd
+          version="$(jq -r .version version.json)"
+          [[ "$version" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+          curl --fail --location --retry 5 "$base/releases/$version/Vertix-Client-Setup.exe" -o Vertix-Client-Setup.exe
+          curl --fail --location --retry 5 "$base/releases/$version/Vertix-Client-$version-source.tar.gz" -o "Vertix-Client-$version-source.tar.gz"
           printf '%s  Vertix-Client-Setup.exe\n' "$(jq -r .sha256 version.json)" | sha256sum --check
-          printf '%s  Vertix-Client-0.2.0-source.tar.gz\n' "$(jq -r .source_sha256 version.json)" | sha256sum --check
+          printf '%s  Vertix-Client-%s-source.tar.gz\n' "$(jq -r .source_sha256 version.json)" "$version" | sha256sum --check
           jq -r .notes version.json > release-notes.txt
-      - name: Publish release with installer and corresponding source
+      - name: Publish release with corresponding source
         shell: bash
         run: |
           set -euo pipefail
-          gh release create v0.2.0 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Vertix Client 0.2.0 — Instanzeinstellungen" --notes-file release-notes.txt Vertix-Client-Setup.exe Vertix-Client-0.2.0-source.tar.gz Vertix-Updates-einrichten.cmd
+          gh release create "v$VERSION" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Vertix Client $VERSION" --notes-file release-notes.txt Vertix-Client-Setup.exe "Vertix-Client-$VERSION-source.tar.gz"
