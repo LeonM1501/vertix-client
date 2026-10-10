@@ -2,6 +2,10 @@
 
 Eigenständiger Minecraft-Java-Profilmanager auf Basis des vollständig kopierten NoRiskClient-Launcher-Quellcodes 0.6.28. Vertix-Änderungen vom 9. Oktober 2026. GNU GPLv3; siehe [LICENSE](LICENSE) und [NOTICE.md](NOTICE.md).
 
+## Version 0.6.0
+
+Neues zweistufiges R-Shift-Menü in der Vertix-Core-Mod: kompakte Startansicht und separate Modübersicht mit Kategorien, Suche und Einstellungen. Graphit/Offwhite, responsive Karten, scrollbare Einstellungen und einheitlicher HUD-Editor. Core 1.1.0 wird für Fabric 26.2 und 26.3 separat kompiliert und automatisch aktualisiert; 26.3 berücksichtigt SDL-Eingabecodes. Siehe [Mod-Source und Build](vertix-core-mod/README.md) und [Änderungen](changelogs/vertix-0.6.0.md).
+
 ## Version 0.5.0
 
 Marvins OLED-Oberfläche ergänzt die fünf bisherigen Designs: schwarzer Hintergrund, eine frei wählbare Akzentfarbe, eine vereinfachte Navigation und eine Startseite mit Instanzübersicht. Bestehende Darstellungsoptionen aus 0.4.0 werden übernommen; OLED lässt sich unter Einstellungen auswählen.
