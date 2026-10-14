@@ -1,5 +1,9 @@
 # Vertix Client
 
+## Version 0.7.0
+
+Core 1.2.0 ergänzt den optionalen **Discord Streaming**-Modus: R-Shift → Mod Menü → Performance. Er begrenzt Minecraft standardmäßig auf 60 FPS (30–240 einstellbar), damit GPU-Leistung für die Aufnahme übrig bleibt, und verwendet unter Windows randloses Vollbild. Niedrigere Spiel-/AFK-Limits bleiben erhalten; beim Ausschalten wird das normale Verhalten wiederhergestellt. Standardmäßig aus. Unterstützt Fabric mit Minecraft 26.2 und 26.3. Nach dem Client-Update Minecraft neu starten. [Release und Source](https://github.com/LeonM1501/vertix-client/releases/tag/v0.7.0). Ein echter Discord-Stream wurde nicht vermessen.
+
 Eigenständiger Minecraft-Java-Profilmanager auf Basis des vollständig kopierten NoRiskClient-Launcher-Quellcodes 0.6.28. Vertix-Änderungen vom 9. Oktober 2026. GNU GPLv3; siehe [LICENSE](LICENSE) und [NOTICE.md](NOTICE.md).
 
 ## Version 0.6.0
