@@ -1,5 +1,14 @@
 # Vertix Client
 
+## Version 0.9.0 / Core 1.4.0
+
+Gemeinsamer Mod-Katalog für Modrinth und CurseForge mit verifizierter Projektzusammenführung, neuester kompatibler Version und Modrinth-Vorrang bei Gleichstand. Armor HUD mit eigener Vertix-Darstellung, Slotfiltern, Haltbarkeitsformaten und anpassbaren Warnungen.
+
+[Setup und passender vollständiger Source](https://github.com/LeonM1501/vertix-client/releases/tag/v0.9.0) · [Änderungen](changelogs/0.9.0.md). Der zu dieser Version gehörende Source liegt im Release-Archiv `Vertix-Client-0.9.0-source.tar.gz`; ältere Source-Dateien im Repository-Stamm sind kein Ersatz dafür.
+
+Nach dem Update Minecraft neu starten (Fabric 26.2/26.3). Für CurseForge muss auf jedem PC ein eigener gültiger API-Key unter Einstellungen → Inhaltsquellen hinterlegt werden. Private Zugangsdaten gehören nicht zum Setup oder Source-Archiv.
+
+
 ## Version 0.7.0
 
 Core 1.2.0 ergänzt den optionalen **Discord Streaming**-Modus: R-Shift → Mod Menü → Performance. Er begrenzt Minecraft standardmäßig auf 60 FPS (30–240 einstellbar), damit GPU-Leistung für die Aufnahme übrig bleibt, und verwendet unter Windows randloses Vollbild. Niedrigere Spiel-/AFK-Limits bleiben erhalten; beim Ausschalten wird das normale Verhalten wiederhergestellt. Standardmäßig aus. Unterstützt Fabric mit Minecraft 26.2 und 26.3. Nach dem Client-Update Minecraft neu starten. [Release und Source](https://github.com/LeonM1501/vertix-client/releases/tag/v0.7.0). Ein echter Discord-Stream wurde nicht vermessen.
