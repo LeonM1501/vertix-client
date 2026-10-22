@@ -1,5 +1,13 @@
 # Vertix Client
 
+## Version 0.10.0 / Core 1.5.0
+
+**Performance & Slate:** originales Modrinth-Ranking für Beliebt, kompatible Optimierungsmods pro Instanz, FPS-Modus mit wiederherstellbaren Grafikwerten, Frametime-HUD, Zoom, Session-Anzeige und Hintergrund-Limit. Neues wählbares Slate-Design, Strg+K, Merkliste und lokale Log-Hinweise.
+
+[Setup und vollständiger passender Source](https://github.com/LeonM1501/vertix-client/releases/tag/v0.10.0) · [Alle Änderungen](changelogs/0.10.0.md). Korrespondierender Source: `Vertix-Client-0.10.0-source.tar.gz`; ältere Dateien im Repository-Stamm ersetzen dieses Archiv nicht.
+
+Slate unter Einstellungen auswählen. Minecraft nach dem Update neu starten (Fabric 26.2/26.3), dann R-Shift → Leistung → FPS Modus. Performance-Mods werden optional aus ihren Projektquellen geladen. Der Leistungsgewinn hängt von Hardware, Welt und Einstellungen ab. Eigene Profile und Welten werden durch die Veröffentlichung nicht ersetzt.
+
 ## Version 0.9.0 / Core 1.4.0
 
 Gemeinsamer Mod-Katalog für Modrinth und CurseForge mit verifizierter Projektzusammenführung, neuester kompatibler Version und Modrinth-Vorrang bei Gleichstand. Armor HUD mit eigener Vertix-Darstellung, Slotfiltern, Haltbarkeitsformaten und anpassbaren Warnungen.
