@@ -1,5 +1,11 @@
 # Vertix Client
 
+## Version 0.11.0 / Core 1.5.0
+
+Modrinth-.mrpack und CurseForge-Modpack-.zip als neue Instanz importieren, mit gepinnter Version, optionalen Dateien und geprüften Downloads. Lokale Mods anhand exakter Datei-Hashes erkennen. Auf Wunsch als unoptimierter Testbuild mit eingebetteter Produktionsoberfläche veröffentlicht. Alle Funktionen aus 0.10.0/0.10.1 bleiben enthalten.
+
+[Release, Setup und vollständiger Source](https://github.com/LeonM1501/vertix-client/releases/tag/v0.11.0) · [Änderungen](changelogs/0.11.0.md). Korrespondierender Source im Archiv `Vertix-Client-0.11.0-source.tar.gz`. Import unter Instanzen → Modpack importieren. Ein gültiger CurseForge-Key wird weiterhin pro PC in den Inhaltsquellen benötigt.
+
 ## Version 0.10.1 / Core 1.5.0
 
 24 gerenderte Minecraft-Blockporträts für Instanzen mit frei wählbarer Hintergrundfarbe, Suchfunktion und Vorschau. Instanzeinstellungen → Allgemein → Instanzbild → Speichern. PNGs werden direkt im Profil gespeichert und funktionieren offline. Enthält außerdem sämtliche Performance-, Slate- und Launcher-Funktionen aus 0.10.0.
