@@ -1,5 +1,11 @@
 # Vertix Client
 
+## Version 0.10.1 / Core 1.5.0
+
+24 gerenderte Minecraft-Blockporträts für Instanzen mit frei wählbarer Hintergrundfarbe, Suchfunktion und Vorschau. Instanzeinstellungen → Allgemein → Instanzbild → Speichern. PNGs werden direkt im Profil gespeichert und funktionieren offline. Enthält außerdem sämtliche Performance-, Slate- und Launcher-Funktionen aus 0.10.0.
+
+[Release, Setup und vollständiger Source](https://github.com/LeonM1501/vertix-client/releases/tag/v0.10.1) · [Änderungen](changelogs/0.10.1.md). Korrespondierender Source im Archiv `Vertix-Client-0.10.1-source.tar.gz`. Minecraft-Artwork © Mojang / Microsoft; Vertix ist unabhängig.
+
 ## Version 0.10.0 / Core 1.5.0
 
 **Performance & Slate:** originales Modrinth-Ranking für Beliebt, kompatible Optimierungsmods pro Instanz, FPS-Modus mit wiederherstellbaren Grafikwerten, Frametime-HUD, Zoom, Session-Anzeige und Hintergrund-Limit. Neues wählbares Slate-Design, Strg+K, Merkliste und lokale Log-Hinweise.
