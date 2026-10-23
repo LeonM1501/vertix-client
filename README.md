@@ -1,5 +1,11 @@
 # Vertix Client
 
+## Version 0.12.0 / Core 1.6.0
+
+Gemeinsame Minecraft-Tasten und Grafik-/UI-Vorlagen, getrennte Mod-Tasten pro Loader sowie Ausnahmen je Instanz. Neuere doppelte Mods automatisch wählen und ältere Dateien gesichert erhalten. Vertix Core zusätzlich für Forge 1.20.1 neben Fabric 26.2/26.3. Als schneller Testbuild mit eingebetteter Oberfläche gepackt; alle Funktionen aus 0.11.0 bleiben enthalten.
+
+[Release, Setup und vollständiger Source](https://github.com/LeonM1501/vertix-client/releases/tag/v0.12.0) · [Änderungen](changelogs/0.12.0.md). Korrespondierender Source im Archiv `Vertix-Client-0.12.0-source.tar.gz`. Synchronisierung unter Einstellungen → Steuerung & Spieloptionen. Minecraft nach dem Update neu starten. Ein gültiger CurseForge-Key wird weiterhin pro PC in den Inhaltsquellen benötigt.
+
 ## Version 0.11.0 / Core 1.5.0
 
 Modrinth-.mrpack und CurseForge-Modpack-.zip als neue Instanz importieren, mit gepinnter Version, optionalen Dateien und geprüften Downloads. Lokale Mods anhand exakter Datei-Hashes erkennen. Auf Wunsch als unoptimierter Testbuild mit eingebetteter Produktionsoberfläche veröffentlicht. Alle Funktionen aus 0.10.0/0.10.1 bleiben enthalten.
