@@ -1,5 +1,11 @@
 # Vertix Client
 
+## Version 0.13.0 / Core 1.6.0
+
+Neue grauschwarze Startseite mit eigener 3D-Skin-Vorschau, Instanz-Dropdown am Spielen-Button und Direktstart in der Bibliothek. Mehrere Microsoft-Konten hinzufügen, auswählen und einzeln vom Gerät entfernen. Gespeicherte Designwünsche und alle Funktionen aus 0.12.0 bleiben erhalten.
+
+[Release, Setup und vollständiger Source](https://github.com/LeonM1501/vertix-client/releases/tag/v0.13.0) · [Änderungen](changelogs/0.13.0.md). Korrespondierender Source: `Vertix-Client-0.13.0-source.tar.gz`. Schneller Windows-Testbuild mit eingebetteter Oberfläche.
+
 ## Version 0.12.0 / Core 1.6.0
 
 Gemeinsame Minecraft-Tasten und Grafik-/UI-Vorlagen, getrennte Mod-Tasten pro Loader sowie Ausnahmen je Instanz. Neuere doppelte Mods automatisch wählen und ältere Dateien gesichert erhalten. Vertix Core zusätzlich für Forge 1.20.1 neben Fabric 26.2/26.3. Als schneller Testbuild mit eingebetteter Oberfläche gepackt; alle Funktionen aus 0.11.0 bleiben enthalten.
