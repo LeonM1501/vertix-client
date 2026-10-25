@@ -1,5 +1,36 @@
 # Vertix: Projektkontext und Übergabe
 
+## Veröffentlicht und geprüft: 0.13.0 / Core 1.6.0
+
+Release: https://github.com/LeonM1501/vertix-client/releases/tag/v0.13.0.
+Release-Commit: 6039ee62a701399a0bf8a84e8822e7a30c3c5335.
+Korrespondierender Source: 97062386e33eba3939ab088636dade01e4731976.
+Workflow 40203435669 erfolgreich. Beide Downloads vollständig gegen SHA256 und
+GitHub-Asset-Digests geprüft. Der normale main/version.json-Kanal liefert 0.13.0.
+Setup: 25.137.777 Bytes; Source: 4.761.391 Bytes. Testbuild in 3m04s erstellt.
+SHA256 Setup: 7328d6820e76336e3bbdbc4b53e443e613f914e6cd58689bcf592a635c2d384f.
+SHA256 Source: 5330edb09894d0ca0e75205316b417a24cd0000db016f2805af251016e947ae2.
+Drei Core-JARs, Common-Controls-v6 und Runtime-DLLs geprüft. Zugangsdatenprüfung
+bestanden. Keine persönliche Installation manuell ersetzt. Belege unter
+artifacts/releases/0.13.0 und artifacts/verification/release-0.13.0.
+
+## Zusätzlicher USB-Auftrag: alle Instanzen übertragen
+
+Ziel: E:/Vertix-Instanzen-2026-10-25. Fünf Instanzen: Test, 26.2, AbyssMC,
+Crystal Plus PVP, 1.8.9; ungefähr 1,04 GB. Keine Launcher-Konten oder API-Keys.
+INSTANZEN-UEBERNEHMEN.cmd bei geschlossenem Vertix und Minecraft starten.
+Vertix muss am Ziel installiert und einmal gestartet worden sein. Portable
+Python-Runtime beilegen. Zuerst IDs abgleichen, dann eindeutig Name (optional
+Suffix (USB)), Spielversion und Loader; mehrdeutige Zuordnungen abbrechen.
+Bestehende Ziel-ID und Pfade erhalten. Vor Änderungen app.db und vorhandene
+betroffene Instanzordner unter %APPDATA%/vertix/backups/USB-Import-... sichern.
+Quelldateien hinzufügen/überschreiben; nur am Ziel vorhandene Dateien erhalten.
+Löschungen werden nicht synchronisiert. Neu erstellte, völlig umbenannte Profile
+ohne gemeinsame ID können nicht sicher automatisch erkannt werden. PC-spezifische
+Java-Pfade und bevorzugte Microsoft-Konten nicht übernehmen. Das veröffentlichte
+0.13.0-Source-Archiv bleibt beim oben genannten Snapshot; diese Übergabenotiz ist
+ein nachträglicher Kontextstand.
+
 ## Aktueller Auftrag und Übergabe: 0.13.0 (25.10.2026)
 
 Der Nutzer hat ausdrücklich das Update und einen aktualisierten Chat-/Projektkontext
