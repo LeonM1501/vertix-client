@@ -1,11 +1,11 @@
 {
-  "version": "0.14.0",
-  "core_version": "1.7.0",
-  "title": "Vertix Client 0.14.0 – Core 1.7.0",
-  "notes": "# Vertix Client 0.14.0 / Core 1.7.0\n\nDer Client bündelt Vertix Core 1.7.0 für Fabric 26.2/26.3 und Forge 1.20.1.\n\n- **Zoom:** weicher Zoom auf Tastendruck, optional mit Mausrad.\n- **Performance:** getrennte Regler für Item-, TNT- und Partikeldarstellung; einstellbarer Nahbereich schützt nahe Item-Stacks.\n- **Crystal Optimizer:** eigene Sichtbarkeits- und Partikelregler. Treffer, Schaden, Platzierung und Serverberechnung bleiben unverändert.\n- **Profile:** Module, Einstellungen, HUD-Positionen und Minecraft-Tastenbelegungen gemeinsam speichern, laden und löschen.\n- **HUD und Module:** eigene HUD-Stile, überarbeitete Potion-Anzeige, abschaltbarer Session-Timer, Low-Fire/Low-Totem/Low-Shield sowie steuerbare AppleSkin-, Gamma- und TotemCounter-Funktionen.\n- **Discord Streaming:** entfernt den zusätzlichen FPS-Deckel. Minecrafts eigenes Limit und randloses Vollbild bleiben bestehen.\n\nPrüfungen und genaue Grenzen stehen in Core 1.7.0. Der isolierte Fabric-26.2-Core-Test und die Fabric-26.2/26.3- sowie Forge-1.20.1-Builds wurden für dieses Update ausgeführt. Für Fabric 26.3 bleibt der normale JIT-Spielstart in der dokumentierten Testumgebung ungeklärt; die vollständige Prüfung mit dem persönlichen Modpack und einem Multiplayer-Server ist nicht erfolgt. Ein bestimmter FPS-Gewinn wird nicht zugesagt.\n\nDer Client wird als schneller Windows-Testbuild mit eingebetteter Produktionsoberfläche verteilt. Beim Update werden Profile und Welten nicht ersetzt; persönliche Installationsdateien werden durch die Veröffentlichung nicht manuell verändert.\n",
-  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.0/Vertix-Client-Setup.exe",
-  "sha256": "3c6342e64c845d75e5e750413940ac689ea60964864f2451be216edeefb01b1f",
-  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.0/Vertix-Client-0.14.0-source.tar.gz",
-  "source_sha256": "27d55c65d959a93086ecd18993e3f4de9d521fcc866318594edef790af8a05ca",
-  "source_commit": "a41be4930370d2810f7f94efc773acccd021a770"
+  "version": "0.14.1",
+  "core_version": "1.7.1",
+  "title": "Vertix Client 0.14.1 – FreeCam, Hotkeys und Profile",
+  "notes": "# Vertix Client 0.14.1 / Core 1.7.1\n\nDieses Patch-Update ergänzt und korrigiert Core 1.7.0. Es enthält weiterhin die Funktionen aus 0.14.0.\n\n- **FreeCam:** Kamera per F4 umschalten und bewegen, während der Spieler stehen bleibt. Angriffs- und Benutzungseingaben werden währenddessen unterdrückt.\n- **Modul-Hotkeys:** Module erhalten eigene Tastenbelegungen, die gespeichert und in den Einstellungen angepasst werden können.\n- **Profile:** Minecraft-Videooptionen werden beim Speichern mit erfasst und beim Laden wiederhergestellt.\n- **Performance-Profile:** Schnell/Maximum reduzieren Effekte und Beleuchtungsarbeit, verändern aber Sichtweite und Entity-Reichweite nicht mehr.\n- **Welt-Feuer:** Low-Fire kann zusätzlich das eigene Ressourcenpaket für Welt-Feuer ein- und ausschalten.\n- **Korrekturen:** Zoom-/FreeCam-Maussteuerung und versionsabhängige Forge-Eingaben angepasst.\n\nCore-JARs für Fabric 26.2/26.3 und Forge 1.20.1 wurden neu gebaut. Ein bestimmter FPS-Zuwachs wird nicht zugesagt. Kein vollständiger Test mit persönlichem Modpack oder Multiplayer-Server.\n",
+  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.1/Vertix-Client-Setup.exe",
+  "sha256": "a6195e1ddde164359ae23ad5d6698581a92e5bd64c3e2ca9edb6c71b72823fc1",
+  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.1/Vertix-Client-0.14.1-source.tar.gz",
+  "source_sha256": "0c2ddf5b4cb82496532e17d85cff9c468572ccc224b60f073fdfb758afbee16b",
+  "source_commit": "f19546ffe2aa1347daad5135d69dbb81eb642bd6"
 }
