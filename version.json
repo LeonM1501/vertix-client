@@ -1,11 +1,11 @@
 {
-  "version": "0.14.1",
-  "core_version": "1.7.1",
-  "title": "Vertix Client 0.14.1 – FreeCam, Hotkeys und Profile",
-  "notes": "# Vertix Client 0.14.1 / Core 1.7.1\n\nDieses Patch-Update ergänzt und korrigiert Core 1.7.0. Es enthält weiterhin die Funktionen aus 0.14.0.\n\n- **FreeCam:** Kamera per F4 umschalten und bewegen, während der Spieler stehen bleibt. Angriffs- und Benutzungseingaben werden währenddessen unterdrückt.\n- **Modul-Hotkeys:** Module erhalten eigene Tastenbelegungen, die gespeichert und in den Einstellungen angepasst werden können.\n- **Profile:** Minecraft-Videooptionen werden beim Speichern mit erfasst und beim Laden wiederhergestellt.\n- **Performance-Profile:** Schnell/Maximum reduzieren Effekte und Beleuchtungsarbeit, verändern aber Sichtweite und Entity-Reichweite nicht mehr.\n- **Welt-Feuer:** Low-Fire kann zusätzlich das eigene Ressourcenpaket für Welt-Feuer ein- und ausschalten.\n- **Korrekturen:** Zoom-/FreeCam-Maussteuerung und versionsabhängige Forge-Eingaben angepasst.\n\nCore-JARs für Fabric 26.2/26.3 und Forge 1.20.1 wurden neu gebaut. Ein bestimmter FPS-Zuwachs wird nicht zugesagt. Kein vollständiger Test mit persönlichem Modpack oder Multiplayer-Server.\n",
-  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.1/Vertix-Client-Setup.exe",
-  "sha256": "a6195e1ddde164359ae23ad5d6698581a92e5bd64c3e2ca9edb6c71b72823fc1",
-  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.1/Vertix-Client-0.14.1-source.tar.gz",
-  "source_sha256": "0c2ddf5b4cb82496532e17d85cff9c468572ccc224b60f073fdfb758afbee16b",
-  "source_commit": "f19546ffe2aa1347daad5135d69dbb81eb642bd6"
+  "version": "0.14.2",
+  "core_version": "1.7.3",
+  "title": "Vertix Client 0.14.2 – Totem-Anzeige, Effekte und Core 1.7.3",
+  "notes": "# Vertix Client 0.14.2 / Core 1.7.3\n\nDieses Update ergänzt neue visuelle Core-Module und überarbeitet Totem- und Feuereffekte.\n\n- **Ancient Debris Notifier:** Markiert Ancient Debris in geladenen Chunks und kann beim Fund eine Nachricht einblenden.\n- **Clear Water / Clear Lava:** Verringert den Nebel und entfernt den jeweiligen Flüssigkeits-Overlay-Effekt.\n- **Totem-Anzeige:** Der Totem Counter zeigt jetzt den eigenen Bestand über der Hotbar; die bisherige Spieler-Pop-Zählung entfällt. Low Totem hat eine eigene Größe für die Pop-Animation; vorhandene Absenkungswerte werden übernommen.\n- **Welt-Feuer:** Das optionale Ressourcenpaket verkleinert die Feuergeometrie weiter und ersetzt ältere Vertix-Feuerpakete automatisch.\n- **Core-Korrekturen:** Kamera, Zoom, Effekte und Held-Item-Verhalten wurden für Fabric 26.2/26.3 und Forge 1.20.1 angeglichen.\n\nCore 1.7.3 wird für Fabric 26.2, Fabric 26.3 und Forge 1.20.1 mitgeliefert.\r\n",
+  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.2/Vertix-Client-Setup.exe",
+  "sha256": "60abb802050621f3be390ba3e7e4bb6c6ecd4ca040333d4be438379417f55a40",
+  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.2/Vertix-Client-0.14.2-source.tar.gz",
+  "source_sha256": "8bdb4e74a583a287f71534cd30053cfefc490bc387cd21b6efa4c8c660136463",
+  "source_commit": "c77b82deb168c45f22d86e0ee57e5d4d44dae557"
 }
