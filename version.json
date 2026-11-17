@@ -1,11 +1,11 @@
 {
-  "version": "0.14.4",
+  "version": "0.14.5",
   "core_version": "1.8.0",
-  "title": "Vertix Client 0.14.4 – Cosmetics und neues Design",
-  "notes": "# Vertix Client 0.14.4 / Core 1.8.0\r\n\r\nDieses Update bringt Vertix-Cosmetics, ein neues OLED-Design und den einfachen Wechsel von anderen Clients.\r\n\r\n- **Cosmetics:** Capes (eingebaut oder eigenes Bild hochladen), Hüte, Flügel, Auren und Nametag-Stile. Flügel und Hüte sind als Pixel-Voxel-Modelle gebaut, mit Leuchteffekten. Nur Spieler mit Vertix sehen sie, zusammen mit dem Vertix-Logo neben dem Namen in der Tabliste und über dem Kopf. Unpassende Capes lassen sich melden.\r\n- **Cosmetics-Seite:** Vorschau aller Cosmetics am eigenen 3D-Skin, Anmeldung über das Minecraft-Spieler-Zertifikat (der Minecraft-Token verlässt den PC nicht).\r\n- **Design:** Überarbeitetes OLED-Design, neue Buttons und Icons, Intro mit Pixel-Schwarm, winkender Skin.\r\n- **Client-Wechsel:** Instanzen aus NoRisk, Dawn, Modrinth App, Prism und CurseForge übernehmen. Es werden nur Spielinhalte kopiert, keine Launcher- oder Anmeldedateien.\r\n- **Spielstatus:** Läuft Minecraft, zeigt der Start-Button „Spiel läuft“ und bietet „Minecraft beenden“ an.\r\n- **Core (Fabric 26.2/26.3):** Freecam mit flüssiger Bewegung, sichtbarem eigenem Körper und ohne schwebende Hand. Neues Modul „Nametag“. Überarbeitete In-Game-Menüs. Performance-Mixins sind optional, damit Lithium und ähnliche Mods nicht mehr zum Absturz führen.\r\n- **Forge 1.20.1:** unverändert Core 1.7.9.\r\n\r\nBekannte Grenzen: Das Nametag-Modul zeigt den eigenen Namen in einem Test noch nicht an. Cosmetics wurden mit einem echten Konto angemeldet, aber noch nicht zusammen mit einem zweiten Vertix-Spieler geprüft.\r\n",
-  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.4/Vertix-Client-Setup.exe",
-  "sha256": "5c1c90c265d8e622bb3ed322b9754afeed94e957d283c7f07be7b4eca7b9692f",
-  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.4/Vertix-Client-0.14.4-source.tar.gz",
-  "source_sha256": "6ed9d4c399931c71f06bcd1b827add1a55c72ffe1fc034639d3d9e1a8e36e7eb",
-  "source_commit": "5a435fb9644f9fc26b4bf8ade839058625dcc708"
+  "title": "Vertix Client 0.14.5 – Skin-Vorschau und 360°-Ansicht",
+  "notes": "# Vertix Client 0.14.5 / Core 1.8.0\r\n\r\nKleines Update für Skin-Vorschau und 3D-Ansicht.\r\n\r\n- **Eigener Skin statt Steve:** Der Launcher merkt sich deinen Skin lokal und fragt Mojang nicht mehr bei jedem Seitenwechsel. Blockt Mojang kurzzeitig (HTTP 429), zeigt er deinen zuletzt bekannten Skin oder holt ihn über dein angemeldetes Konto.\r\n- **3D-Ansicht:** Frei rundherum drehen, nach oben und unten neigen, mit Schwung beim Loslassen und Pfeiltasten in alle Richtungen. Auf der Cosmetics-Seite dreht sich das Modell im Leerlauf langsam selbst. Die Drehung läuft ohne ständiges Neuzeichnen der Seite, Cape- und Flügeltexturen werden zwischengespeichert.\r\n- **Core:** unverändert 1.8.0 (Fabric 26.2/26.3), Forge 1.20.1 bei 1.7.9.\r\n\r\nBekannte Grenzen wie in 0.14.4: Das Nametag-Modul zeigt den eigenen Namen in einem Test noch nicht an.\r\n",
+  "installer_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.5/Vertix-Client-Setup.exe",
+  "sha256": "f961ccd31d65373e96c7c4f3bf0935cdc53e360526c6d52b843ccffea124a8d4",
+  "source_url": "https://raw.githubusercontent.com/LeonM1501/vertix-client/main/releases/0.14.5/Vertix-Client-0.14.5-source.tar.gz",
+  "source_sha256": "c9aae01e881a2bec4bf1f26f468f5bb9bbb474294a62f1b45bec9ad5d80a79a4",
+  "source_commit": "b73bd91851fb78b94792e05c00790c6d2eb4fcef"
 }
